@@ -14,3 +14,12 @@ FOUNDATION_EXPORT double BinaryPackagesVersionNumber;
 FOUNDATION_EXPORT const unsigned char BinaryPackagesVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <BinaryPackages/PublicHeader.h>
+
+@import Alamofire;
+@import AnyCodable;
+@import BoxKit;
+@import CHTCollectionViewWaterfallLayout;
+@import Kingfisher;
+@import ReactorKit;
+@import RxSwift;
+@import WeakMapTable;
