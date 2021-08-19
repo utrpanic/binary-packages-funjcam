@@ -2,7 +2,7 @@
 //  BinaryPackages.h
 //  BinaryPackages
 //
-//  Created by box-jeon on 2021/08/15.
+//  Created by box-jeon on 2021/08/19.
 //
 
 #import <Foundation/Foundation.h>
@@ -14,9 +14,3 @@ FOUNDATION_EXPORT double BinaryPackagesVersionNumber;
 FOUNDATION_EXPORT const unsigned char BinaryPackagesVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <BinaryPackages/PublicHeader.h>
-
-@import Alamofire
-@import BoxKit
-@import CHTCollectionViewWaterfallLayout
-@import Kingfisher
-@import ReactorKit

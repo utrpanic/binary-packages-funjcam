@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BinaryPackages.h</key>
 		<data>
-		25Vh8HX2eLJ9UbURLXlX9IWZEDA=
+		426f2tYUf0p8Pwi/UvQhApg73o0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -21,13 +21,21 @@
 	<dict>
 		<key>Headers/BinaryPackages.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			426f2tYUf0p8Pwi/UvQhApg73o0=
+			</data>
 			<key>hash2</key>
 			<data>
-			euqanYtvY7yx3kvi4I8aFCbcZPa8sb0YOYe07FjZ0FM=
+			Wlnocq1/UVucW1npvmW98854xrm+O6DpPIWJItAr+aM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			lAwWpbK+h5/7DP/e1vMqsm1Iebs=
+			</data>
 			<key>hash2</key>
 			<data>
 			29d5SC82ivB5cN8sbgZ8arCorDQoI1dLQMZfod0aEP0=

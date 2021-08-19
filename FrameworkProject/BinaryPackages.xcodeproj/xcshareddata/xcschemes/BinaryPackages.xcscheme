@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "609EC1B326C939C3002D0DF4"
+               BlueprintIdentifier = "608738DC26CEA724007F1801"
                BuildableName = "BinaryPackages.framework"
                BlueprintName = "BinaryPackages"
                ReferencedContainer = "container:BinaryPackages.xcodeproj">
@@ -50,7 +50,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "609EC1B326C939C3002D0DF4"
+            BlueprintIdentifier = "608738DC26CEA724007F1801"
             BuildableName = "BinaryPackages.framework"
             BlueprintName = "BinaryPackages"
             ReferencedContainer = "container:BinaryPackages.xcodeproj">
