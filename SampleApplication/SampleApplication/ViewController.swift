@@ -6,15 +6,14 @@
 //
 
 import UIKit
-import SampleFramework
-//import BoxKit
+import BinaryPackages
+import BoxKit
 
 class ViewController: UIViewController {
     
-//    let code = HttpStatusCode.notFound
+    let code = HttpStatusCode.notFound
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        Sample().helloWorld()
     }
 }

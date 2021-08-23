@@ -13,18 +13,18 @@
 		603BC61426D17FC600FB8B5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603BC61226D17FC600FB8B5F /* Main.storyboard */; };
 		603BC61626D17FC700FB8B5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603BC61526D17FC700FB8B5F /* Assets.xcassets */; };
 		603BC61926D17FC700FB8B5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603BC61726D17FC700FB8B5F /* LaunchScreen.storyboard */; };
-		609A572226D202210024E431 /* SampleFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609A572126D202210024E431 /* SampleFramework.xcframework */; };
-		609A572326D202210024E431 /* SampleFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 609A572126D202210024E431 /* SampleFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		609AF4D626D3E59900615FEA /* BinaryPackages.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609AF4D226D3E55300615FEA /* BinaryPackages.xcframework */; };
+		609AF4D726D3E59900615FEA /* BinaryPackages.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 609AF4D226D3E55300615FEA /* BinaryPackages.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		609A572426D202210024E431 /* Embed Frameworks */ = {
+		609AF4D826D3E59900615FEA /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				609A572326D202210024E431 /* SampleFramework.xcframework in Embed Frameworks */,
+				609AF4D726D3E59900615FEA /* BinaryPackages.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,7 +40,7 @@
 		603BC61526D17FC700FB8B5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		603BC61826D17FC700FB8B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		603BC61A26D17FC700FB8B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		609A572126D202210024E431 /* SampleFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SampleFramework.xcframework; path = Frameworks/SampleFramework.xcframework; sourceTree = "<group>"; };
+		609AF4D226D3E55300615FEA /* BinaryPackages.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BinaryPackages.xcframework; path = ../_Binary/BinaryPackages.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				609A572226D202210024E431 /* SampleFramework.xcframework in Frameworks */,
+				609AF4D626D3E59900615FEA /* BinaryPackages.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 		603BC62226D1810D00FB8B5F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				609A572126D202210024E431 /* SampleFramework.xcframework */,
+				609AF4D226D3E55300615FEA /* BinaryPackages.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,13 +104,15 @@
 				603BC60626D17FC600FB8B5F /* Frameworks */,
 				603BC60526D17FC600FB8B5F /* Sources */,
 				603BC60726D17FC600FB8B5F /* Resources */,
-				609A572426D202210024E431 /* Embed Frameworks */,
+				609AF4D826D3E59900615FEA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SampleApplication;
+			packageProductDependencies = (
+			);
 			productName = SampleApplication;
 			productReference = 603BC60926D17FC600FB8B5F /* SampleApplication.app */;
 			productType = "com.apple.product-type.application";

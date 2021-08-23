@@ -4,25 +4,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "Packages",
+    name: "MyLibrary",
     platforms: [.iOS(.v14)],
     products: [
         .library(
-            name: "Binary",
-            targets: ["Binary"]),
-        .library(
-            name: "Source",
-            targets: ["Source"]),
+            name: "MyLibrary",
+            type: .static,
+            targets: ["MyLibrary"]),
     ],
     dependencies: [
-        .package(name: "_Source", path: "_Source")
+        .package(name: "_Source", path: "../../_Source")
     ],
     targets: [
-        .binaryTarget(
-            name: "Binary",
-            path: "_Binary/BinaryPackages.xcframework"),
         .target(
-            name: "Source",
+            name: "MyLibrary",
             dependencies: ["_Source"])
     ]
 )
