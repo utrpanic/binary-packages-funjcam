@@ -13,13 +13,21 @@ let package = Package(
             targets: ["_Source"]),
     ],
     dependencies: [
-        .package(name: "BoxKit", url: "https://github.com/utrpanic/box-kit-ios.git", .upToNextMajor(from: "2.0.0"))
+        .package(name: "Alamofire", url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.0.0")),
+        .package(name: "BoxKit", url: "https://github.com/utrpanic/box-kit-ios.git", .upToNextMajor(from: "2.0.0")),
+        .package(name: "CHTCollectionViewWaterfallLayout", url: "https://github.com/chiahsien/CHTCollectionViewWaterfallLayout.git", .upToNextMajor(from: "0.0.0")),
+        .package(name: "Kingfisher", url: "https://github.com/onevcat/Kingfisher.git", .upToNextMajor(from: "6.0.0")),
+        .package(name: "ReactorKit", url: "https://github.com/ReactorKit/ReactorKit.git", .upToNextMajor(from: "3.0.0"))
     ],
     targets: [
         .target(
             name: "_Source",
             dependencies: [
-                .product(name: "BoxKit", package: "BoxKit")
+                "Alamofire",
+                "BoxKit",
+                "CHTCollectionViewWaterfallLayout",
+                "Kingfisher",
+                "ReactorKit"
             ])
     ]
 )
