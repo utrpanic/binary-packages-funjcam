@@ -13,23 +13,8 @@
 		603BC61426D17FC600FB8B5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603BC61226D17FC600FB8B5F /* Main.storyboard */; };
 		603BC61626D17FC700FB8B5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603BC61526D17FC700FB8B5F /* Assets.xcassets */; };
 		603BC61926D17FC700FB8B5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603BC61726D17FC700FB8B5F /* LaunchScreen.storyboard */; };
-		609AF4D626D3E59900615FEA /* BinaryPackages.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609AF4D226D3E55300615FEA /* BinaryPackages.xcframework */; };
-		609AF4D726D3E59900615FEA /* BinaryPackages.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 609AF4D226D3E55300615FEA /* BinaryPackages.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		60995BBD26DA8AE50019E269 /* SampleApplicationLib in Frameworks */ = {isa = PBXBuildFile; productRef = 60995BBC26DA8AE50019E269 /* SampleApplicationLib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		609AF4D826D3E59900615FEA /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				609AF4D726D3E59900615FEA /* BinaryPackages.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		603BC60926D17FC600FB8B5F /* SampleApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +25,7 @@
 		603BC61526D17FC700FB8B5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		603BC61826D17FC700FB8B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		603BC61A26D17FC700FB8B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60995BBB26DA8A500019E269 /* SampleApplicationLib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SampleApplicationLib; sourceTree = "<group>"; };
 		609AF4D226D3E55300615FEA /* BinaryPackages.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BinaryPackages.xcframework; path = ../_Binary/BinaryPackages.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				609AF4D626D3E59900615FEA /* BinaryPackages.xcframework in Frameworks */,
+				60995BBD26DA8AE50019E269 /* SampleApplicationLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +44,7 @@
 		603BC60026D17FC600FB8B5F = {
 			isa = PBXGroup;
 			children = (
+				60995BBB26DA8A500019E269 /* SampleApplicationLib */,
 				603BC60B26D17FC600FB8B5F /* SampleApplication */,
 				603BC60A26D17FC600FB8B5F /* Products */,
 				603BC62226D1810D00FB8B5F /* Frameworks */,
@@ -104,7 +91,6 @@
 				603BC60626D17FC600FB8B5F /* Frameworks */,
 				603BC60526D17FC600FB8B5F /* Sources */,
 				603BC60726D17FC600FB8B5F /* Resources */,
-				609AF4D826D3E59900615FEA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -112,6 +98,7 @@
 			);
 			name = SampleApplication;
 			packageProductDependencies = (
+				60995BBC26DA8AE50019E269 /* SampleApplicationLib */,
 			);
 			productName = SampleApplication;
 			productReference = 603BC60926D17FC600FB8B5F /* SampleApplication.app */;
@@ -369,6 +356,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		60995BBC26DA8AE50019E269 /* SampleApplicationLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SampleApplicationLib;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 603BC60126D17FC600FB8B5F /* Project object */;
 }
