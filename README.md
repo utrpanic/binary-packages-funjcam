@@ -1,1 +1,3 @@
-# https://github.com/grab/cocoapods-binary-cache
+# binary-packages-funjcam
+
+A description of this package.

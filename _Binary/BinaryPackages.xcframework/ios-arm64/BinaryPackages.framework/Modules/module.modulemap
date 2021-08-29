@@ -1,0 +1,11 @@
+framework module BinaryPackages {
+  umbrella header "BinaryPackages.h"
+
+  export *
+  module * { export * }
+}
+
+module BinaryPackages.Swift {
+    header "BinaryPackages-Swift.h"
+    requires objc
+}
