@@ -14,39 +14,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1JyXGSSR90eIbXh1f6iN0WVbzqc=
+		IMrmm3BXoa85shFgdrKsVUND+gY=
 		</data>
 		<key>Modules/BinaryPackages.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ePGlXsEmDg1peSrzQhREIo1x2jQ=
+		w3TejdrSj2KfkVErgkw7YXk4vEw=
 		</data>
 		<key>Modules/BinaryPackages.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NNt3rd2RnCRQmbdWmqu0Tj6DCNQ=
+		qmawjarUcNXam4iGP/8OZDImpJg=
 		</data>
 		<key>Modules/BinaryPackages.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		ePGlXsEmDg1peSrzQhREIo1x2jQ=
+		w3TejdrSj2KfkVErgkw7YXk4vEw=
 		</data>
 		<key>Modules/BinaryPackages.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		NNt3rd2RnCRQmbdWmqu0Tj6DCNQ=
+		qmawjarUcNXam4iGP/8OZDImpJg=
 		</data>
 		<key>Modules/BinaryPackages.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vmafFuJv43cWvWgmLNUh2aqYzms=
+		MRV3og1SZ1qi9CDQ1dlvPAEXiE4=
 		</data>
 		<key>Modules/BinaryPackages.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lMZjIzirgIHO55F6g08lzSw6clM=
+		lxTo726Beygw2n1DI7ghn8+LSeg=
 		</data>
 		<key>Modules/BinaryPackages.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		vmafFuJv43cWvWgmLNUh2aqYzms=
+		MRV3og1SZ1qi9CDQ1dlvPAEXiE4=
 		</data>
 		<key>Modules/BinaryPackages.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		lMZjIzirgIHO55F6g08lzSw6clM=
+		lxTo726Beygw2n1DI7ghn8+LSeg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -57,10 +57,6 @@
 	<dict>
 		<key>Headers/BinaryPackages-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yvJ1zkYpXoVz/CCpz7/AqEsvoCY=
-			</data>
 			<key>hash2</key>
 			<data>
 			lEswfEw3bXlOOOLrmohZO4F33wJiXxMUR1Fb4RlM5kU=
@@ -68,10 +64,6 @@
 		</dict>
 		<key>Headers/BinaryPackages.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ITCYan2GmCzlkqsvqzTKxxEudb0=
-			</data>
 			<key>hash2</key>
 			<data>
 			dJPxZTutHvdFyXSkuU2QjWQiyk9EIuNTrCCekr9hEEk=
@@ -79,98 +71,62 @@
 		</dict>
 		<key>Modules/BinaryPackages.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ePGlXsEmDg1peSrzQhREIo1x2jQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			ikurPi9LI2sq5fesL3auOR4yXizxXkbhg4VwuI16KPU=
+			TcEHLSqwwb93IbGH8YNFBo40auWBWvRRT07ZD6PeohQ=
 			</data>
 		</dict>
 		<key>Modules/BinaryPackages.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NNt3rd2RnCRQmbdWmqu0Tj6DCNQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			mKospluO2Sc6EGuBpUbSp/ZXkujTqYhWcuN2lM2BnuU=
+			+7ug/7XDEuHd+xgucS+yH/dDISyh7DP344vvd6lXDso=
 			</data>
 		</dict>
 		<key>Modules/BinaryPackages.swiftmodule/arm64.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ePGlXsEmDg1peSrzQhREIo1x2jQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			ikurPi9LI2sq5fesL3auOR4yXizxXkbhg4VwuI16KPU=
+			TcEHLSqwwb93IbGH8YNFBo40auWBWvRRT07ZD6PeohQ=
 			</data>
 		</dict>
 		<key>Modules/BinaryPackages.swiftmodule/arm64.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NNt3rd2RnCRQmbdWmqu0Tj6DCNQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			mKospluO2Sc6EGuBpUbSp/ZXkujTqYhWcuN2lM2BnuU=
+			+7ug/7XDEuHd+xgucS+yH/dDISyh7DP344vvd6lXDso=
 			</data>
 		</dict>
 		<key>Modules/BinaryPackages.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vmafFuJv43cWvWgmLNUh2aqYzms=
-			</data>
 			<key>hash2</key>
 			<data>
-			c1ZE17kBHKJEPotWKXrBAoC5PZCKIMw7iBd+d50+B2g=
+			9qEHINcmsOrPXoSFtSoug4YIozqjmOK+it3y5dr7L7c=
 			</data>
 		</dict>
 		<key>Modules/BinaryPackages.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lMZjIzirgIHO55F6g08lzSw6clM=
-			</data>
 			<key>hash2</key>
 			<data>
-			lievM4F6wmNVvpNdzZ3h2dnVZfe+GnpXmf/r+tjHKjQ=
+			GJwSPdeswKielaQfJaTmfOJ8nSDCs/sAgDpx1C0m1Xc=
 			</data>
 		</dict>
 		<key>Modules/BinaryPackages.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vmafFuJv43cWvWgmLNUh2aqYzms=
-			</data>
 			<key>hash2</key>
 			<data>
-			c1ZE17kBHKJEPotWKXrBAoC5PZCKIMw7iBd+d50+B2g=
+			9qEHINcmsOrPXoSFtSoug4YIozqjmOK+it3y5dr7L7c=
 			</data>
 		</dict>
 		<key>Modules/BinaryPackages.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lMZjIzirgIHO55F6g08lzSw6clM=
-			</data>
 			<key>hash2</key>
 			<data>
-			lievM4F6wmNVvpNdzZ3h2dnVZfe+GnpXmf/r+tjHKjQ=
+			GJwSPdeswKielaQfJaTmfOJ8nSDCs/sAgDpx1C0m1Xc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RBUng5FRbesMl6PsVOSdX79SH8g=
-			</data>
 			<key>hash2</key>
 			<data>
 			nJ/FhL8Onb4UOheMZ8O2tc7zAhOxXZtLr8GZAC0+Nsk=
