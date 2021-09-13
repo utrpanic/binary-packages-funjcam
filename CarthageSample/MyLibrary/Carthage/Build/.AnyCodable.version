@@ -1,0 +1,19 @@
+{
+  "commitish" : "0.6.1",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)",
+      "hash" : "cc05b512cd80ba07649caa53c72a7f32a577e194b5a58273c5a50c707ff0a340",
+      "name" : "AnyCodable",
+      "container" : "AnyCodable.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)",
+      "hash" : "f702c306c4d0ce7d596dd4038cfcfd2d982832a226fa8055ae69397eb152739d",
+      "name" : "AnyCodable",
+      "container" : "AnyCodable.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    }
+  ]
+}
